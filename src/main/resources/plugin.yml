@@ -1,0 +1,8 @@
+name: AprilFools
+version: ${project.version}
+description: nah
+authors: [crashdemons]
+
+api-version: 1.13
+
+main: com.github.crashdemons.aprilfools.Plugin
