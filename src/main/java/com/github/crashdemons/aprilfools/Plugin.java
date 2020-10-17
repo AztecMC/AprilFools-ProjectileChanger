@@ -69,7 +69,7 @@ public class Plugin extends JavaPlugin implements Listener {
                     List<String> lore = meta.getLore();
                     
                     for(String line : lore){
-                       if( ChatColor.stripColor(line).equals("halloween") ){
+                       if( ChatColor.stripColor(line).equals("demonic") ){
                            isCustomSnowball = true;
                            break;
                        }
@@ -81,7 +81,7 @@ public class Plugin extends JavaPlugin implements Listener {
             if(!isCustomSnowball) return;
             
             
-            
+            tproj.setFireTicks(3*20);
             
             tproj.setItem(stack);
            
