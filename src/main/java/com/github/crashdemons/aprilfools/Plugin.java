@@ -36,7 +36,6 @@ public class Plugin extends JavaPlugin implements Listener {
         
         //PlayerHeadsAPI phapi = PlayerHeads.getApiInstance();
         stack = Compatibility.getProvider().getCompatibleHeadItem(CompatibleSkullMaterial.PLAYER, 1);
-        stack = Compatibility.getProvider().applyDefaultItemMeta(stack, false);
         
         
         CompatibleProfile profile = Compatibility.getProvider().createCompatibleProfile(null, UUID.fromString("51d45a7a-34cf-425b-86ab-41f809a1de38"), "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjBiZDIwMTI4YzcxMjEwNTA1ZDgwNjJhNTFhZTJhYmUwY2MzZmNhNTAxMDdmODlmMTJkM2E4ZDZkY2ZkYWVhMSJ9fX0=");
