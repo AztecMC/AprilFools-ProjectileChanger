@@ -1,7 +1,8 @@
-name: AprilFools
+name: AprilFoolsHalloween
 version: ${project.version}
 description: nah
 authors: [crashdemons]
+depend: [ PlayerHeads ]
 
 api-version: 1.13
 
